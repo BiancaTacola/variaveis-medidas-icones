@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Titillium Web', sans-serif;
+}
+:root {
+  --color-light: #fff;
+  --color-dark: #0d0d0d80;
+  --color-blue: #14d2dc;
+  --trasition: 0.5s;
+  --space-10: 1rem;
+  --space-20: 2rem;
+  --space-40: 4rem;
+  --radius: 0.7rem;
+}
+hml {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+  background-color: var(--color-light);
+}
+.container {
+  width: 80%;
+  min-height: 30vh;
+  margin: var(--space-40) auto;
+  padding: var(--space-40);
+  background-color: var(--color-dark);
+  text-align: center;
+  border-radius: var(--radius);
+}
+/* .conteiner-title é o nosso h3*/
+.container-title {
+  font-size: 6vmin;
+  color: var(--color-light);
+  margin-bottom: var(--space-20);
+}
+.icon {
+  font-size: 7vmin;
+  color: var(--color-light);
+  margin: var(--space-20);
+  padding: var(--space-20);
+  border: 1px solid var(--color-light);
+  border-radius: var(--radius);
+  transition: var(--transition);
+}
+.icon:hover {
+  border-color: var(--color-blue);
+  background-color: var(--color-blue);
+}
